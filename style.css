@@ -1,0 +1,85 @@
+h2{
+    font-family: Garamond, serif;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar{
+    position:absolute;
+    top:0;
+    left:0;
+     display:flex;
+     width:100%;
+     justify-content: space-between;
+    padding:20px;
+    color:whitesmoke;
+}
+a:link{
+    font-size:22px;
+    color:azure;
+}
+a:hover{
+
+    color:rgb(33, 27, 34);
+    font-size:1.1em;
+}
+
+a:active{
+    color:rgb(255, 0, 221);
+}
+
+
+ul{
+    list-style:none;
+}
+.error{
+    display:flex;
+    align-items: center;
+}
+.error li{
+   margin: 0 7px;
+  
+}
+header {
+    width:100vw;
+    height:100vh;
+    background-image: url(images/Travel.jpg);
+    background-size: cover;
+    display:flex;
+    font-size: large;
+    color:whitesmoke;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+.header-content{
+    text-align: center;
+}
+.header-content h2 {
+    font-size:4vmin;
+}
+.line{
+    width:150px;
+    height:4px;
+    background: crimson;
+    margin:10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+font-size: 6vmin;
+}
+.ctn{
+    padding:8px 15px;
+    background:crimson;
+    border-radius: 30px;
+    color:whitesmoke;
+}
+.logo{
+    font-size:32px;
+}
