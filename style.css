@@ -48,7 +48,7 @@ ul{
 header {
     width:100vw;
     height:100vh;
-    background-image: url(images/Travel.jpg);
+    background-image: url(Travel.jpg);
     background-size: cover;
     display:flex;
     font-size: large;
